@@ -1,0 +1,60 @@
+.background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#4700D8 ;
+    height: 100vh;
+}
+.box_container{
+    width: 30vw;
+    height: 65vh;
+    border-radius: 10px;
+    background-color: #ffffff;
+
+}
+.form{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.list{
+    list-style: none;
+    position: relative;
+    left: -10px;
+}
+.login_txt{
+    position: relative;
+    color:#4700D8 ;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 100px;
+    left: 2.5vw;
+    /*top: 10vh;*/
+}
+.list_style{
+    padding-bottom: 5px;
+}
+.email_txt{
+    color: #24006C;
+}
+.password_txt{
+    color: #24006C;
+}
+.forgot_password{
+    font-size: 10px;
+    color:#4700D8 ;
+}
+.btn{
+    position: relative;
+    color: white;
+    background-color: #4700D8;
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    left: 30px;
+    transition: 500ms;
+}
+.btn:hover{
+    background-color: rgba(71, 0, 216, 0.58);
+}
